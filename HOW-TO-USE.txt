@@ -1,0 +1,24 @@
+GIRLFRIEND MOD for Minecraft 1.21.11 (Fabric)
+
+A) BUILD THE MOD (free, on GitHub)
+ 1. Optional: put YOUR skin (a 64x64 PNG) in
+      src/main/resources/assets/girlfriend/textures/entity/girlfriend.png
+    (replace the file that is there, keep the same name).
+ 2. Go to github.com -> New repository -> "uploading an existing file".
+ 3. Open this folder, press Ctrl+A to select EVERYTHING inside it (including the hidden .github folder), drag it onto the page, click Commit.
+ 4. Click the "Actions" tab, wait for the green check, click the run, download "Artifacts".
+ 5. Unzip it. The jar WITHOUT "-sources" in its name is your mod.
+
+B) INSTALL
+ 1. Install Fabric for 1.21.11 (fabricmc.net/use/installer).
+ 2. Download Fabric API for 1.21.11 (modrinth.com/mod/fabric-api).
+ 3. Put the mod jar + Fabric API jar into %appdata%\.minecraft\mods
+ 4. Start the Fabric 1.21.11 profile, join a world once, then open .minecraft\config\girlfriend.json
+    and paste your Anthropic API key into "apiKey" (console.anthropic.com).
+
+C) PLAY
+ /gf spawn        - summon her (also brings her to you)
+ /gf name <name>  - name her
+ /gf stay, /gf follow, /gf kiss
+ Right-click her: stay/follow.  Sneak + right-click: kiss on the cheek.
+ Type in chat near her (24 blocks) and she answers in chat.
